@@ -8,10 +8,10 @@ void main()  async{
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: FirebaseOptions(
-       apiKey:"AIzaSyBtOhXKld5eZmfkZlBQxQ7QcdY54neOrG8 ",
-       appId:"1:732666416158:android:1d38fb7ee10ccd5bc0f20f",
-       messagingSenderId:"2010326977",
-       projectId:"expense-tracker-8d507",
+       apiKey:"",
+       appId:"",
+       messagingSenderId:"",
+       projectId:"",
     ),
   );
   Bloc.observer = SimpleBlocObserver();
